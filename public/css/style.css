@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #6c757d;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #1e2125;
+  border-radius: 10px;
+}
